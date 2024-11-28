@@ -1,4 +1,4 @@
-A standalone Java application that serves any HDT file as a Jena-fuseki SPARQL endpoint
+A standalone Java application that serves any HDT file as a Jena-fuseki SPARQL endpoint. Includes an example on how to create your own HDT file.
 
 # Compilation
 Run the `compile.sh` script. It will create a fatjar file including all dependencies.
