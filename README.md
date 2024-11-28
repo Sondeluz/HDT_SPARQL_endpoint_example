@@ -6,4 +6,4 @@ Run the `compile.sh` script. It will create a fatjar file including all dependen
 # Usage:
 `java -jar endpoint.jar -f hdt_file.hdt`
 
-The HDT file will be memory-mapped an indexed to allow fast querying. The .index file will be automatically created and loaded if not present. 
+The HDT file will be memory-mapped an indexed to allow fast querying. The .index file will be automatically created and loaded if not present. It will then create a SPARQL endpoint available on `http://localhost:3330/sparql`.
